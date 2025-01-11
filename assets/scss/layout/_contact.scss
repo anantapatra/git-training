@@ -1,0 +1,39 @@
+.contact-promo-section {
+  .card {
+    border: 1px solid #eee;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #f3f6f9;
+    height: 100%;
+    .fas {
+      font-size: 35px;
+      margin-bottom: 20px;
+      color: #497bda;
+    }
+  }
+  p {
+    min-height: 90px;
+    &.text {
+      font-size: 18px;
+      color: $primary;
+      font-weight: 500;
+    }
+  }
+}
+
+.contact-us-section {
+  margin-bottom: 60px;
+}
+
+.contact-us-form-wrap {
+  border-radius: 20px;
+  padding: 65px 60px;
+}
+
+.contact-us-content {
+  max-width: 450px;
+  right: -33%;
+  top: 20%;
+  border-radius: 20px;
+  position: absolute;
+  padding: 40px;
+}

@@ -1,0 +1,15 @@
+//base
+@import "../scss/base/variable";
+@import "../scss/base/flexbox";
+@import "../scss/base/mixin";
+@import "../scss/base/styleguide";
+
+//components
+@import "../scss/components/tab";
+
+//layout
+@import "../scss/layout/header";
+@import "../scss/layout/footer";
+@import "../scss/layout/home";
+@import "../scss/layout/other";
+@import "../scss/layout/contact";

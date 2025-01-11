@@ -1,0 +1,446 @@
+/* card */
+.feature-card {
+  background: $lightSky;
+  padding: 20px 15px;
+  margin-top: 30px;
+  height: calc(100% - 30px);
+
+  .feature-card-body {
+    margin-top: 20px;
+  }
+}
+
+.m365-cards {
+  box-shadow: 1px 2px 6px $gray;
+  padding: 15px;
+  border-radius: 4px;
+  margin-top: 30px;
+  height: calc(100% - 30px);
+  background: $white;
+}
+
+.benefit-card {
+  text-align: center;
+  box-shadow: 1px 2px 6px $gray;
+  padding: 30px;
+  border-radius: 4px;
+  margin-top: 30px;
+  height: calc(100% - 30px);
+  background: $white;
+  transition: all 0.5s;
+
+  img {
+    max-width: 60px;
+    margin: 0 auto 20px;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    box-shadow: 1px 2px 8px $gray;
+    background: $lightSky;
+  }
+}
+
+.box-features {
+  box-shadow: 1px 2px 6px $gray;
+  padding: 20px;
+  border-radius: 4px;
+  margin-top: 30px;
+  height: calc(100% - 30px);
+  background: $white;
+
+  .box-features-icon {
+    display: flex;
+    align-items: center;
+
+    img {
+      max-width: 60px;
+    }
+
+    h5 {
+      margin: 0 0 0 15px;
+    }
+  }
+}
+
+.office-cards {
+  box-shadow: 1px 2px 6px $gray;
+  border-radius: 4px;
+  background: $white;
+  padding: 20px;
+  margin-top: 30px;
+
+  .card-header {
+    background: $white;
+    border: none;
+  }
+
+  .mo-standard {
+    font-size: 22px;
+    margin: 15px 0;
+    line-height: 1.3;
+  }
+
+  .price-value {
+    font-weight: 500;
+    font-size: 18px;
+    color: $primary;
+  }
+}
+
+.workspace-prices {
+  .price-boxes {
+    box-shadow: 1px 2px 6px $gray;
+    border-radius: 4px;
+    margin-top: 30px;
+    height: calc(100% - 30px);
+
+    .card-header {
+      background: $primary;
+      color: $white;
+      font-size: 18px;
+      line-height: 1.4;
+
+      .priceing-value {
+        font-size: 26px;
+        font-weight: 800;
+
+        .smallText {
+          font-size: 14px;
+          font-weight: 300;
+          display: block;
+        }
+      }
+    }
+
+    .panel-body {
+      padding: 30px 15px;
+    }
+  }
+}
+
+.plans-card {
+  border: 1px solid $gray;
+  border-radius: 10px;
+  margin-top: 30px;
+  height: calc(100% - 30px);
+  background: $white;
+  overflow: hidden;
+  transition: all 0.5s;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  .pl-title-new {
+    padding: 15px 10px;
+    line-height: 1.5;
+    span {
+      margin-top: 10px;
+      font-size: 14px;
+      display: block;
+      font-weight: normal;
+    }
+  }
+
+  .plan-price {
+    border-top: 1px solid $white;
+    background: $primary;
+    text-align: center;
+    font-size: 24px;
+    color: $white;
+    padding: 0 10px;
+    font-weight: 600;
+  }
+
+  .plans-list-tm-section {
+    padding: 20px 20px 0;
+
+    ul {
+      min-height: 520px;
+      li {
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  .bottom-plan {
+    padding: 20px;
+    text-align: center;
+
+    select {
+      position: relative;
+      appearance: none;
+      text-transform: none;
+      padding: 7px 40px 7px 20px;
+      border: none;
+      border-radius: 30px;
+      outline: none;
+      background: #eee
+        url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+        no-repeat calc(100% - 16px);
+      background-size: 10px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+/* privacy-section */
+.privacy-section {
+  ul {
+    padding: 0;
+
+    li {
+      width: 100%;
+      display: table;
+      margin-bottom: 10px;
+
+      span {
+        display: table-cell;
+
+        &:first-child {
+          width: 30px;
+        }
+      }
+    }
+  }
+}
+
+/* client-section */
+.client-section {
+  .client-thumb {
+    background: $white;
+    text-align: center;
+    padding: 25px;
+    min-height: 150px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 30px);
+
+    &:hover {
+      box-shadow: 1px 6px 18px 10px rgb(0 0 0 / 8%);
+    }
+
+    .client-logo {
+      margin-bottom: 25px;
+    }
+
+    .client-name {
+      font-weight: 500;
+      line-height: 1.25;
+    }
+  }
+}
+
+/* faq */
+.faq-wrap {
+  .card {
+    .card-header {
+      padding: 0.95rem 1.25rem !important;
+      -webkit-box-shadow: 0 3px 20px 0 rgb(0 0 0 / 12%);
+      box-shadow: 0 3px 20px 0 rgb(0 0 0 / 12%);
+      border-radius: 4px 4px 0 0;
+      background: $primary !important;
+      margin-bottom: 0;
+      border: 1px solid rgba(93, 118, 174, 0.15);
+
+      h6 {
+        color: $white;
+      }
+
+      &:after {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        content: "\f106";
+        color: $white;
+        float: right;
+        -webkit-transition: 0.5s;
+        transition: 0.5s;
+        width: 30px;
+        text-align: center;
+        background: rgba(9, 72, 179, 0.05);
+        border-radius: 4px;
+      }
+
+      &.collapsed {
+        background: transparent !important;
+
+        h6 {
+          color: initial;
+        }
+
+        &:after {
+          content: "\f107";
+          -webkit-transition: 0.5s;
+          transition: 0.5s;
+          color: rgba(9, 72, 179, 0.8);
+        }
+      }
+    }
+
+    .card-body {
+      background: $lightGray;
+      border-radius: 0 0 4px 4px;
+    }
+  }
+}
+
+/* partner page */
+.app-list {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  justify-items: center;
+
+  li {
+    width: 100%;
+    background: $white;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+    white-space: nowrap;
+    padding: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+
+    span {
+      margin-top: 12px;
+    }
+
+    img {
+      line-height: 65px;
+      margin: auto;
+      -webkit-transition: all 0.2s ease-in-out;
+      transition: all 0.2s ease-in-out;
+    }
+
+    &:hover {
+      img {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
+
+.application-icon-wrap {
+  position: relative;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    -webkit-box-shadow: 0 1rem 2rem rgb(0 0 0 / 12%) !important;
+    box-shadow: 0 1rem 2rem rgb(0 0 0 / 12%) !important;
+  }
+}
+
+.partners-outerbox-value {
+  background-color: $primary;
+  text-align: center;
+  color: $white;
+  padding: 50px 30px;
+  max-width: 350px;
+  margin-left: auto;
+
+  > span {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 80px;
+    padding: 0 0 10px;
+    clear: both;
+    display: inline-block;
+    text-shadow: 0px 0 15px $primary;
+  }
+}
+
+/* says-boxouter */
+.says-boxouter {
+  .row {
+    max-width: 850px;
+    margin: 0 auto;
+  }
+  .office-new-palns {
+    background: $white;
+    height: 100%;
+    padding: 30px;
+
+    .says-logobox {
+      position: relative;
+      margin-bottom: 50px;
+
+      > img {
+        height: 55px;
+      }
+      &::after {
+        position: absolute;
+        right: 30%;
+        top: initial;
+        background-color: $secondary;
+        height: 5px;
+        width: 40%;
+        content: "";
+        bottom: -30px;
+        left: 30%;
+      }
+    }
+  }
+}
+
+/* starup-features-tab */
+.starup-features-tab {
+  .nav-tabs {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+
+    li {
+      width: 50%;
+      text-align: center;
+    }
+    .nav-link {
+      background: var(--white);
+      font-weight: 600;
+      color: var(--darkGray);
+
+      &.active {
+        background: $secondary;
+        color: var(--white);
+      }
+    }
+  }
+}
+
+/* profitability-tabs */
+.profitability-tabs {
+  .nav-pills {
+    .nav-link {
+      background: $primary;
+      color: var(--white);
+      border-bottom: 1px solid $white;
+      border-left: 5px solid transparent;
+      border-radius: 0;
+      font-weight: 400;
+      font-size: 16px;
+
+      &.active {
+        background: $white;
+        color: $darkGray;
+        border-left: 5px solid $secondary;
+      }
+    }
+  }
+}

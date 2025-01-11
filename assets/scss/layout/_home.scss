@@ -1,0 +1,260 @@
+/* banner-section */
+.banner-section {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  background: $primary;
+
+  img {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .content {
+    text-align: left;
+
+    h1 {
+      font-size: 52px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.8;
+    }
+    .action-btns {
+      display: flex;
+      gap: 20px;
+    }
+    .btn.btn-primary {
+      background: $white;
+      color: $primary;
+      &:hover {
+        background: $secondary;
+        color: $white;
+      }
+    }
+
+    .btn.btn-secondary {
+      background: $secondary;
+      color: $white;
+      &:hover {
+        background: $white;
+        color: $primary;
+      }
+    }
+  }
+
+  .owl-carousel {
+    button.owl-dot {
+      background: $white;
+      opacity: 0.6;
+
+      &.active {
+        background: $white;
+        opacity: 1;
+      }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    padding: 50px 0;
+    .content {
+      text-align: center;
+    }
+    .align-items-center {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
+// feature-section
+
+.feature-section {
+  .section-heading {
+    margin-bottom: 0;
+
+    h2 {
+      max-width: 880px;
+    }
+
+    p {
+      max-width: 650px;
+    }
+  }
+  .feature-card {
+    padding: 20px;
+    border: 1px solid transparent;
+    a {
+      text-decoration: none;
+    }
+
+    img {
+      margin-bottom: 20px;
+    }
+
+    h3 {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    p {
+      padding: 0 20px;
+      color: $gray1;
+    }
+    &:hover {
+      border: 1px solid $primary;
+    }
+  }
+}
+
+// service-section
+
+.service-section {
+  .bg {
+    background: $primaryLight;
+    padding: 60px;
+    border-radius: 50px;
+  }
+
+  .section-heading {
+    margin-bottom: 60px;
+    h2 {
+      max-width: 880px;
+    }
+
+    p {
+      max-width: 650px;
+      color: $gray1;
+    }
+  }
+  .service-nav {
+    .nav-link {
+      display: flex;
+      align-items: start;
+      gap: 16px;
+      background: $white;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      color: $black;
+      padding: 16px;
+      border-bottom: 5px solid $white;
+      cursor: pointer;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+
+      &.active {
+        border-bottom: 5px solid $primary;
+      }
+
+      img {
+        width: 50px;
+      }
+
+      h3 {
+        font-size: 22px;
+        font-weight: 600;
+      }
+      p {
+        margin-bottom: 0;
+        color: $gray1;
+      }
+    }
+  }
+  .service-tab-content {
+    .service-tab-img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+// testimonial-section
+
+.testimonial-section {
+  .bg {
+    position: relative;
+    background: $primaryLight;
+    padding: 50px;
+    border-radius: 50px;
+    .quote {
+      position: absolute;
+      max-width: 200px;
+      opacity: 0.1;
+
+      &.top {
+        top: 10px;
+        left: 10px;
+      }
+
+      &.bottom {
+        bottom: 10px;
+        right: 10px;
+        transform: rotate(180deg);
+      }
+    }
+  }
+  .single-review-wrap {
+    border-radius: 20px;
+
+    .review-body {
+      display: flex;
+      align-items: start;
+      gap: 10px;
+      min-height: 210px;
+      p {
+        font-size: 14px;
+      }
+      .quote-icon {
+        width: 20px;
+      }
+    }
+    .review-author {
+      margin-top: 10px;
+      h6 {
+        color: $primary;
+        font-weight: 600;
+      }
+      span {
+        font-size: 12px;
+        color: $black;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+//  highlight-section
+.highlight-section {
+  .tech-feature-list {
+    li {
+      gap: 10px;
+      margin-bottom: 16px;
+      .fas {
+        margin-top: 5px;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+// home-client-section
+.home-client-section {
+  .section-heading {
+    margin-bottom: 60px;
+  }
+  .client-thumb {
+    border: 2px solid $primaryLight;
+    border-radius: 10px;
+    padding: 30px;
+
+    img {
+      height: 60px;
+      object-fit: contain;
+    }
+  }
+}
